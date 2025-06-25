@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Embed Audio and Video</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            margin: 0;
+            padding: 0;
+            text-align: center;
+        }
+        .media-container {
+            margin: 30px auto;
+            width: 80%;
+        }
+        audio, video {
+            max-width: 100%;
+            margin-top: 10px;
+            background-color: #f4f4f4;
+        }
+    </style>
+</head>
+<body>
+
+    <h1>HTML Audio and Video Embedding</h1>
+
+    <!-- Audio Section -->
+    <div class="media-container">
+        <h2>Audio Example</h2>
+        <p>Click play to listen to an audio file:</p>
+        <audio controls>
+            <source src="https://www.soundhelix.com/examples/mp3/SoundHelix-Song-1.mp3" type="audio/mpeg">
+            Your browser does not support the audio element.
+        </audio>
+    </div>
+
+    <!-- Video Section -->
+    <div class="media-container">
+        <h2>Video Example</h2>
+        <p>Click play to watch a video:</p>
+        <video controls>
+            <source src="https://www.w3schools.com/html/mov_bbb.mp4" type="video/mp4">
+            Your browser does not support the video element.
+        </video>
+    </div>
+
+</body>
+</html>
